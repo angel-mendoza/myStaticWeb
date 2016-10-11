@@ -32,12 +32,12 @@
                 <ul class="right hide-on-med-and-down">
                     <li class="link-menu"><a href="#about-link">about me</a></li>
                     <li class="link-menu"><a href="#work-link">work tools</a></li>
-                    <li class="link-menu"><a href="collapsible.html">contacts</a></li>
+                    <li class="link-menu"><a href="#contacts">contacts</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li><a href="#about">about me</a></li>
                     <li><a href="#work-link">work tools</a></li>
-                    <li><a href="collapsible.html">contacts</a></li>
+                    <li><a href="#contacts">contacts</a></li>
                 </ul>
             </div>
         </nav>    
@@ -46,11 +46,11 @@
         <div id="portada"></div>
         <div class="container center-align">
             <div class="logo">
-                <img src="img/perfil.jpg" alt="perfil" class="circle responsive-img foto animated bounceInDown">
-                <h1 id="logotipo" class="fuente-logo animated bounceInDown">Web Developer</h1>
-                <div id="logotipo2" class="contenedor-redes animated bounceInDown">
+                <img src="img/perfil.jpg" alt="perfil" class="circle responsive-img foto">
+                <h1 id="logotipo" class="fuente-logo">Web Developer</h1>
+                <div id="logotipo2" class="contenedor-redes">
                     <div class="red-social">
-                        <a class="waves-effect waves-circle waves-light" href=""><img src="img/facebook.png" alt="" class="responsive-img"></a>
+                        <a class="waves-effect waves-circle waves-light" href="https://www.facebook.com/angel.mendoza.33633"><img src="img/facebook.png" alt="" class="responsive-img"></a>
                     </div>
                     <div class="red-social">
                         <a class="waves-effect waves-circle waves-light" href=""><img src="img/github.png" alt="" class="responsive-img"></a>
@@ -87,7 +87,7 @@
             <div class="divider"></div>
             <div class="row">
                 <div class="col s12 m6 l4">
-                    <div class="card">
+                    <div class="card" id="w-rails">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator imagen-tarjeta" src="img/ruby-on-rails.jpg">
                         </div>
@@ -103,7 +103,7 @@
                 </div>
 
                 <div class="col s12 m6 l4">
-                    <div class="card">
+                    <div class="card" id="w-cake">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator imagen-tarjeta" src="img/Cake-PHP.jpg">
                         </div>
@@ -119,7 +119,7 @@
                 </div>
 
                 <div class="col s12 m6 l4">
-                    <div class="card">
+                    <div class="card" id="w-unity">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator imagen-tarjeta" src="img/unity.jpg">
                         </div>
@@ -135,7 +135,7 @@
                 </div>
 
                 <div class="col s12 m6 l4">
-                    <div class="card">
+                    <div class="card" id="w-boo">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator imagen-tarjeta" src="img/bootstrap_wall.png">
                         </div>
@@ -151,7 +151,7 @@
                 </div>
 
                 <div class="col s12 m6 l4">
-                    <div class="card">
+                    <div class="card" id="w-mate">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator imagen-tarjeta" src="img/materialize-logo.png">
                         </div>
@@ -168,7 +168,7 @@
                 </div>
 
                 <div class="col s12 m6 l4">
-                    <div class="card">
+                    <div class="card" id="w-kwon">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator imagen-tarjeta" src="img/TUYHOA.jpg">
                         </div>
@@ -198,7 +198,32 @@
         </div>
     </div>
 
-    
+    <div id="contacts" class="contenedor-portada section scrollspy">
+        <div class="container center-align">
+            <h2 class="fuente-logo section scrollspy" id="work-link">How can you contact me?<img class="responsive-img img-mail" src="img/a-3.png" alt=""></h2>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col s8 m8 l8 text-contact">
+                    <p>Contact me is very easy, click on the button <i class="material-icons">menu</i>. You just have to write me through my social networks or send an e-mail attaching the project description you want to schedule for you, remember, if you can imagine can be programmed and I am here to realize your projects.</p>
+                    <img class="responsive-img img-engranaje ing-contact" src="img/a-2.png" alt=""> 
+                </div>
+                <div class="col s4 m4 l4">
+                    <img class="responsive-img ing-contact" src="img/a-1.png" alt="">
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="fixed-action-btn horizontal click-to-toggle">
+        <a class="btn-floating btn-large red btn tooltipped" data-position="top" data-delay="50" data-tooltip="contact me">
+            <i class="material-icons">menu</i>
+        </a>
+        <ul>
+            <a class="waves-effect waves-circle waves-light" href="https://www.facebook.com/angel.mendoza.33633"><img src="img/facebook.png" alt="" class="responsive-img"></a>
+            <a class="waves-effect waves-circle waves-light" href=""><img src="img/github.png" alt="" class="responsive-img"></a>
+            <a class="waves-effect waves-circle waves-light" href=""><img src="img/twitter.png" alt="" class="responsive-img"></a>
+            <a class="waves-effect waves-circle waves-light" href=""><img src="img/linkedin.png" alt="" class="responsive-img"></a>                        
+        </ul>
+    </div>  
  
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -206,6 +231,7 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/materialize.min.js"></script>
+        <script src="js/scrollreveal.min.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
